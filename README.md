@@ -107,7 +107,8 @@ The models were evaluated using the following metrics:
 - Recall
 - F1-Score
 
-####Since the dataset is imbalanced, F1-Score was given greater importance while comparing model performance.
+  
+- Since the dataset is imbalanced, F1-Score was given greater importance while comparing model performance.
 ---------------------------
 
 ## Inference

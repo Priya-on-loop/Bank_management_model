@@ -38,7 +38,13 @@ This project focuses on preprocessing the **Bank Marketing Dataset (bank-full.cs
     - One-Hot Encoding
   - Numerical features were scaled using:
     - Minmax Scaler 
-
+### 5. Models Implemented
+- #### 1. SVM
+- #### 2. Naive Bayes
+- #### 3. Decision Tree
+- #### 4. Random Forest
+- #### 5. Logistic Regression
+- #### 6. KNN 
 ---------
 
 ## Technologies Used
@@ -76,8 +82,22 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 Run all the cells in the notebook sequentially.
 
 -----------------
+## Validation & Tuning
 
+| Technique | Used For |
+|-----------|----------|
+| K-Fold (n=5) | SVM, Naive Bayes, LR, KNN |
+| Stratified K-Fold (n=5) | Decision Tree, Random Forest |
+| Grid Search CV | All Models |
+| Random Search CV | All Models |
 
+----------------
+## Ensemble Models
+
+### 1. Bagging
+### 2. Boosting
+
+----------------
 ## Inference
 - There are no missing values.
 - The dataset is imbalanced, with significantly more **"no"** responses than **"yes"** responses.
@@ -90,4 +110,8 @@ Run all the cells in the notebook sequentially.
   2. Data Reading and EDA - Arya A R
   3. Data Cleaning - Priya Shill
   4. Data Transformations - Ananthakrishnan M
-  5. Readme - Arya A R
+  5. Readme - Arya A R & Priya Shill
+  6. SVM & Naive Bayes model - Priya Shill
+  7. Logistic Regression & KNN model - Ananthakrishnan M
+  8. Decision Tree & Random Forest model - Arya A R
+     

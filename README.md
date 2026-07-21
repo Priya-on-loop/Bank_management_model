@@ -98,12 +98,24 @@ Run all the cells in the notebook sequentially.
 ### 2. Boosting
 
 ----------------
+## Model Evaluation Metrics
+
+The models were evaluated using the following metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+Since the dataset is imbalanced, F1-Score was given greater importance while comparing model performance.
+---------------------------
+
 ## Inference
 - There are no missing values.
 - The dataset is imbalanced, with significantly more **"no"** responses than **"yes"** responses.
 - There are 7 numerical columns and 10 categorical columns.
 
----------------------
+--------------------
 
 ## Contributions
 - 1. Skeleton - Priya Shill

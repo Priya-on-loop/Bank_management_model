@@ -64,7 +64,7 @@ This project focuses on preprocessing the **Bank Marketing Dataset (bank-full.cs
 ### Step 1
 Clone the repository.
 ```bash
-git clone <repository-link>
+git clone https://github.com/Priya-on-loop/Bank_management_model
 ```
 ### Step 2
 Open Google Colab.

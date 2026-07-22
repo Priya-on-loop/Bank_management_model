@@ -110,7 +110,10 @@ The models were evaluated using the following metrics:
   
 - Since the dataset is imbalanced, F1-Score was given greater importance while comparing model performance.
 ---------------------------
+## Base Model Comparison
+### Best Performing Models
 
+---------------------------
 ## Inference
 - There are no missing values.
 - The dataset is imbalanced, with significantly more **"no"** responses than **"yes"** responses.
@@ -127,4 +130,5 @@ The models were evaluated using the following metrics:
   6. SVM & Naive Bayes model - Priya Shill
   7. Logistic Regression & KNN model - Ananthakrishnan M
   8. Decision Tree & Random Forest model - Arya A R
+  9. Comparison of all models and selecting the best one -  Priya Shill
      
